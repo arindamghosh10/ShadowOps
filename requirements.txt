@@ -1,0 +1,35 @@
+# Core agent orchestration
+langgraph>=0.2.0
+langchain-core>=0.2.0
+langchain-ollama>=0.1.0
+pydantic>=2.0.0
+
+# Optional cloud providers — only install the ones you actually use
+# Uncomment as needed (or just pip install when you assign them in agent_models.py)
+# langchain-openai>=0.1.0
+# langchain-anthropic>=0.1.0
+# langchain-google-genai>=1.0.0
+
+# Database
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.0
+alembic>=1.13.0
+
+# Vector storage
+qdrant-client>=1.9.0
+sentence-transformers>=2.7.0
+
+# Docker execution
+docker>=7.0.0
+requests>=2.31.0
+
+# API backend
+fastapi>=0.111.0
+uvicorn>=0.30.0
+
+# Utilities
+python-dotenv>=1.0.0
+GitPython>=3.1.0
+python-jose[cryptography]>=3.3.0
+cryptography>=42.0.0
+passlib[bcrypt]>=1.7.4
